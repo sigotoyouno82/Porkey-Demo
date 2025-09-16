@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Derived Data（ビルド生成物）
+DerivedData/
+build/
+
+# SwiftPM
+.build/
+.swiftpm/xcode/
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# User-specific settings
+*.moved-aside
+*.swp
+*.lock
+
+# Package resolution
+Package.resolved
+
+# Logs
+*.log
+
+# Other
+*.idea/
+*.vscode/
