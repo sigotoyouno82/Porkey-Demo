@@ -7,42 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		305649AC2E700F070032A8F9 /* PBXContainerItemProxy */ = {
+		30C465802E8D0D4800929796 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 305649792E7001DE0032A8F9 /* Project object */;
+			containerPortal = 30C4656A2E8D0D4500929796 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 305649802E7001DE0032A8F9;
-			remoteInfo = Test;
+			remoteGlobalIDString = 30C465712E8D0D4500929796;
+			remoteInfo = Poker;
+		};
+		30C4658A2E8D0D4800929796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C4656A2E8D0D4500929796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C465712E8D0D4500929796;
+			remoteInfo = Poker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		305649812E7001DE0032A8F9 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		305649A82E700F060032A8F9 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C465722E8D0D4500929796 /* Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C4657F2E8D0D4800929796 /* PokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C465892E8D0D4800929796 /* PokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		305649832E7001DE0032A8F9 /* Test */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Test;
-			sourceTree = "<group>";
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		30C465A12E8D0DC300929796 /* Exceptions for "Poker" folder in "Poker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Test/HandEvaluatorTests.swift,
+				Test/TestTests.swift,
+			);
+			target = 30C465712E8D0D4500929796 /* Poker */;
 		};
-		305649A92E700F070032A8F9 /* TestTests */ = {
+		30C465A22E8D0DC300929796 /* Exceptions for "Poker" folder in "PokerUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Test/HandEvaluatorTests.swift,
+				Test/TestTests.swift,
+			);
+			target = 30C465882E8D0D4800929796 /* PokerUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		30C465742E8D0D4500929796 /* Poker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TestTests;
+			exceptions = (
+				30C465A12E8D0DC300929796 /* Exceptions for "Poker" folder in "Poker" target */,
+				30C465A22E8D0DC300929796 /* Exceptions for "Poker" folder in "PokerUITests" target */,
+			);
+			path = Poker;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3056497E2E7001DE0032A8F9 /* Frameworks */ = {
+		30C4656F2E8D0D4500929796 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		305649A52E700F060032A8F9 /* Frameworks */ = {
+		30C4657C2E8D0D4800929796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C465862E8D0D4800929796 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,20 +85,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		305649782E7001DE0032A8F9 = {
+		30C465692E8D0D4500929796 = {
 			isa = PBXGroup;
 			children = (
-				305649832E7001DE0032A8F9 /* Test */,
-				305649A92E700F070032A8F9 /* TestTests */,
-				305649822E7001DE0032A8F9 /* Products */,
+				30C465742E8D0D4500929796 /* Poker */,
+				30C465732E8D0D4500929796 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		305649822E7001DE0032A8F9 /* Products */ = {
+		30C465732E8D0D4500929796 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				305649812E7001DE0032A8F9 /* Test.app */,
-				305649A82E700F060032A8F9 /* TestTests.xctest */,
+				30C465722E8D0D4500929796 /* Poker.app */,
+				30C4657F2E8D0D4800929796 /* PokerTests.xctest */,
+				30C465892E8D0D4800929796 /* PokerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,99 +106,128 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		305649802E7001DE0032A8F9 /* Test */ = {
+		30C465712E8D0D4500929796 /* Poker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3056498C2E7001E10032A8F9 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = 30C465932E8D0D4800929796 /* Build configuration list for PBXNativeTarget "Poker" */;
 			buildPhases = (
-				3056497D2E7001DE0032A8F9 /* Sources */,
-				3056497E2E7001DE0032A8F9 /* Frameworks */,
-				3056497F2E7001DE0032A8F9 /* Resources */,
+				30C4656E2E8D0D4500929796 /* Sources */,
+				30C4656F2E8D0D4500929796 /* Frameworks */,
+				30C465702E8D0D4500929796 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				305649832E7001DE0032A8F9 /* Test */,
+				30C465742E8D0D4500929796 /* Poker */,
 			);
-			name = Test;
+			name = Poker;
 			packageProductDependencies = (
 			);
-			productName = Test;
-			productReference = 305649812E7001DE0032A8F9 /* Test.app */;
+			productName = Poker;
+			productReference = 30C465722E8D0D4500929796 /* Poker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		305649A72E700F060032A8F9 /* TestTests */ = {
+		30C4657E2E8D0D4800929796 /* PokerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 305649AE2E700F070032A8F9 /* Build configuration list for PBXNativeTarget "TestTests" */;
+			buildConfigurationList = 30C465962E8D0D4800929796 /* Build configuration list for PBXNativeTarget "PokerTests" */;
 			buildPhases = (
-				305649A42E700F060032A8F9 /* Sources */,
-				305649A52E700F060032A8F9 /* Frameworks */,
-				305649A62E700F060032A8F9 /* Resources */,
+				30C4657B2E8D0D4800929796 /* Sources */,
+				30C4657C2E8D0D4800929796 /* Frameworks */,
+				30C4657D2E8D0D4800929796 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				305649AD2E700F070032A8F9 /* PBXTargetDependency */,
+				30C465812E8D0D4800929796 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				305649A92E700F070032A8F9 /* TestTests */,
-			);
-			name = TestTests;
+			name = PokerTests;
 			packageProductDependencies = (
 			);
-			productName = TestTests;
-			productReference = 305649A82E700F060032A8F9 /* TestTests.xctest */;
+			productName = PokerTests;
+			productReference = 30C4657F2E8D0D4800929796 /* PokerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30C465882E8D0D4800929796 /* PokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C465992E8D0D4800929796 /* Build configuration list for PBXNativeTarget "PokerUITests" */;
+			buildPhases = (
+				30C465852E8D0D4800929796 /* Sources */,
+				30C465862E8D0D4800929796 /* Frameworks */,
+				30C465872E8D0D4800929796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C4658B2E8D0D4800929796 /* PBXTargetDependency */,
+			);
+			name = PokerUITests;
+			packageProductDependencies = (
+			);
+			productName = PokerUITests;
+			productReference = 30C465892E8D0D4800929796 /* PokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		305649792E7001DE0032A8F9 /* Project object */ = {
+		30C4656A2E8D0D4500929796 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					305649802E7001DE0032A8F9 = {
-						CreatedOnToolsVersion = 16.4;
+					30C465712E8D0D4500929796 = {
+						CreatedOnToolsVersion = 26.0.1;
 					};
-					305649A72E700F060032A8F9 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 305649802E7001DE0032A8F9;
+					30C4657E2E8D0D4800929796 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 30C465712E8D0D4500929796;
+					};
+					30C465882E8D0D4800929796 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 30C465712E8D0D4500929796;
 					};
 				};
 			};
-			buildConfigurationList = 3056497C2E7001DE0032A8F9 /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = 30C4656D2E8D0D4500929796 /* Build configuration list for PBXProject "Poker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 305649782E7001DE0032A8F9;
+			mainGroup = 30C465692E8D0D4500929796;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 305649822E7001DE0032A8F9 /* Products */;
+			productRefGroup = 30C465732E8D0D4500929796 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				305649802E7001DE0032A8F9 /* Test */,
-				305649A72E700F060032A8F9 /* TestTests */,
+				30C465712E8D0D4500929796 /* Poker */,
+				30C4657E2E8D0D4800929796 /* PokerTests */,
+				30C465882E8D0D4800929796 /* PokerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3056497F2E7001DE0032A8F9 /* Resources */ = {
+		30C465702E8D0D4500929796 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		305649A62E700F060032A8F9 /* Resources */ = {
+		30C4657D2E8D0D4800929796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C465872E8D0D4800929796 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,14 +237,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3056497D2E7001DE0032A8F9 /* Sources */ = {
+		30C4656E2E8D0D4500929796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		305649A42E700F060032A8F9 /* Sources */ = {
+		30C4657B2E8D0D4800929796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C465852E8D0D4800929796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,15 +261,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		305649AD2E700F070032A8F9 /* PBXTargetDependency */ = {
+		30C465812E8D0D4800929796 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 305649802E7001DE0032A8F9 /* Test */;
-			targetProxy = 305649AC2E700F070032A8F9 /* PBXContainerItemProxy */;
+			target = 30C465712E8D0D4500929796 /* Poker */;
+			targetProxy = 30C465802E8D0D4800929796 /* PBXContainerItemProxy */;
+		};
+		30C4658B2E8D0D4800929796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C465712E8D0D4500929796 /* Poker */;
+			targetProxy = 30C4658A2E8D0D4800929796 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3056498A2E7001E10032A8F9 /* Debug */ = {
+		30C465912E8D0D4800929796 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -263,7 +337,7 @@
 			};
 			name = Debug;
 		};
-		3056498B2E7001E10032A8F9 /* Release */ = {
+		30C465922E8D0D4800929796 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -319,7 +393,7 @@
 			};
 			name = Release;
 		};
-		3056498D2E7001E10032A8F9 /* Debug */ = {
+		30C465942E8D0D4800929796 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -338,15 +412,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.awano.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awano.Poker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3056498E2E7001E10032A8F9 /* Release */ = {
+		30C465952E8D0D4800929796 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -365,79 +443,138 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.awano.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awano.Poker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		305649AF2E700F070032A8F9 /* Debug */ = {
+		30C465972E8D0D4800929796 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.awano.TestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awano.PokerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Poker";
 			};
 			name = Debug;
 		};
-		305649B02E700F070032A8F9 /* Release */ = {
+		30C465982E8D0D4800929796 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.awano.TestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awano.PokerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Poker";
+			};
+			name = Release;
+		};
+		30C4659A2E8D0D4800929796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awano.PokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Poker;
+			};
+			name = Debug;
+		};
+		30C4659B2E8D0D4800929796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awano.PokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Poker;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3056497C2E7001DE0032A8F9 /* Build configuration list for PBXProject "Test" */ = {
+		30C4656D2E8D0D4500929796 /* Build configuration list for PBXProject "Poker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3056498A2E7001E10032A8F9 /* Debug */,
-				3056498B2E7001E10032A8F9 /* Release */,
+				30C465912E8D0D4800929796 /* Debug */,
+				30C465922E8D0D4800929796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3056498C2E7001E10032A8F9 /* Build configuration list for PBXNativeTarget "Test" */ = {
+		30C465932E8D0D4800929796 /* Build configuration list for PBXNativeTarget "Poker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3056498D2E7001E10032A8F9 /* Debug */,
-				3056498E2E7001E10032A8F9 /* Release */,
+				30C465942E8D0D4800929796 /* Debug */,
+				30C465952E8D0D4800929796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		305649AE2E700F070032A8F9 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
+		30C465962E8D0D4800929796 /* Build configuration list for PBXNativeTarget "PokerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				305649AF2E700F070032A8F9 /* Debug */,
-				305649B02E700F070032A8F9 /* Release */,
+				30C465972E8D0D4800929796 /* Debug */,
+				30C465982E8D0D4800929796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C465992E8D0D4800929796 /* Build configuration list for PBXNativeTarget "PokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C4659A2E8D0D4800929796 /* Debug */,
+				30C4659B2E8D0D4800929796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 305649792E7001DE0032A8F9 /* Project object */;
+	rootObject = 30C4656A2E8D0D4500929796 /* Project object */;
 }
